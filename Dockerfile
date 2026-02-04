@@ -1,4 +1,4 @@
-FROM node:lts
+FROM node:24.13.0-bookworm
 
 # Install dependencies
 RUN apt-get update && apt-get install -y --no-install-recommends ffmpeg imagemagick webp && apt-get clean
